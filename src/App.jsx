@@ -15,7 +15,7 @@ function monthDiff(d1, d2) {
 
 // get the current time since November 29th, 2022
 function TimeSince(_) {
-  const [time, setTime] = createSignal(new Date("November 29, 2022 20:30:00"));
+  const [time, setTime] = createSignal(new Date("February 27, 2024 14:30:00"));
 
   // calculate the difference between now and then
   const now = new Date();
@@ -49,7 +49,7 @@ function TimeSince(_) {
 function App() {
   return (
     <>
-    <h1>Mara & Merijn</h1>
+    <h1>Tanvi & Rahul</h1>
     <h2>Together for:</h2>
     {TimeSince()}
     <p>I love you &#128150;</p>
